@@ -136,3 +136,12 @@ v0.0.1
 ---
 
 Built as a MERN stack learning project focused on understanding full-stack development, authentication, and real-world application structure.
+
+
+## Live Demo
+
+Frontend:
+https://task-management-system-htc3.vercel.app/
+
+Backend:
+https://task-management-system-71tp.onrender.com/
