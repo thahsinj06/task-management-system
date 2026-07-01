@@ -1,0 +1,198 @@
+/* ===========================
+   Dashboard Subtitle
+=========================== */
+
+.dashboard-subtitle {
+    color: #6b7280;
+    margin-top: -10px;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+/* ===========================
+   Statistics Cards
+=========================== */
+
+.stats-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 220px;
+
+    background: #ffffff;
+
+    padding: 28px;
+
+    border-radius: 18px;
+
+    border: 1px solid #edf2f7;
+
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+
+    transition: all .25s ease;
+}
+
+.stat-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 20px 35px rgba(15,23,42,.10);
+
+}
+
+.stat-card h3 {
+
+    margin: 0;
+
+    font-size: 15px;
+
+    color: #64748b;
+
+    font-weight: 600;
+
+    letter-spacing: .3px;
+
+}
+
+.stat-card p {
+
+    margin-top: 18px;
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    color: #2563eb;
+
+}
+
+/* ===========================
+   Recent Tasks
+=========================== */
+
+.section-title {
+
+    margin-bottom: 20px;
+
+    color: #1e293b;
+
+}
+
+.recent-task {
+
+    background: #ffffff;
+
+    padding: 18px 24px;
+
+    border-radius: 14px;
+
+    border: 1px solid #edf2f7;
+
+    margin-bottom: 14px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    transition: all .25s ease;
+
+    box-shadow: 0 4px 12px rgba(15,23,42,.04);
+
+}
+
+.recent-task:hover {
+
+    transform: translateX(5px);
+
+    box-shadow: 0 12px 25px rgba(15,23,42,.08);
+
+}
+
+.recent-task h3 {
+
+    margin: 0;
+
+    font-size: 17px;
+
+    color: #1e293b;
+
+}
+
+.recent-task p {
+
+    margin: 0;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #2563eb;
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 768px) {
+
+    .stats-container {
+
+        flex-direction: column;
+
+    }
+
+    .stat-card {
+
+        width: 100%;
+
+    }
+
+}
+/* ===========================
+   Card Themes
+=========================== */
+
+.total-card {
+
+    background: #eff6ff;
+
+    border-left: 6px solid #2563eb;
+
+}
+
+.total-card p {
+
+    color: #2563eb;
+
+}
+
+.completed-card {
+
+    background: #ecfdf5;
+
+    border-left: 6px solid #16a34a;
+
+}
+
+.total-card {
+    background: #dbeafe;
+    border-left: 6px solid #2563eb;
+}
+
+.completed-card {
+    background: #dcfce7;
+    border-left: 6px solid #16a34a;
+}
+
+.pending-card {
+    background: #ffedd5;
+    border-left: 6px solid #ea580c;
+}
