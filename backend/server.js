@@ -16,9 +16,10 @@ connectDB();
 const app = express();
 
 // CORS
+// CORS
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: true,
     })
 );
 
